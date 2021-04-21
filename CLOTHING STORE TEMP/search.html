@@ -1,0 +1,41 @@
+<HTML>
+<Title>Search The Internet BookShop</Title>
+<script language="javascript" src="HEADER.js"></script>
+
+
+<BODY>
+
+<CENTER><H1>Search</H1></CENTER>
+
+<FORM NAME=SearchBooks ACTION="searchresults.jsp" METHOD=POST>
+	<TABLE ALIGN = "CENTER" WIDTH="90%"> 
+		<TR>
+			<TD WIDTH = 300>Search:</TD>
+			<TD WIDTH = 95>
+				Author <INPUT NAME="SearchType" TYPE="radio" VALUE="0" checked>
+			</TD>
+			<TD WIDTH = 95>
+				Title <INPUT NAME="SearchType" TYPE="radio" VALUE="1">						</TD>
+			<TD WIDTH = 95>
+				ISBN <INPUT NAME="SearchType" TYPE="radio" VALUE="2"> 						</TD>
+			<TD></TD> 
+		</TR>
+	</TABLE>
+	<TABLE ALIGN = "CENTER" WIDTH="90%"> 
+		<TR>
+			<TD WIDTH = 300>Enter the Search String:</TD>
+			<TD WIDTH = 300><INPUT TYPE=TEXT NAME=SearchString SIZE=40></TD>
+			<TD></TD> 
+		</TR>
+	</TABLE>
+	<CENTER><INPUT TYPE="submit" NAME="Search" VALUE="Submit Search"></CENTER>
+
+</FORM>
+
+<BR/>
+<BR/>
+<BR/>
+<BR/>
+</BODY>
+<script language="javascript" src="footer.js"></script>
+</HTML>
